@@ -13,11 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shatha Demo',
       theme: ThemeData(
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Obida App'),
     );
   }
 }
